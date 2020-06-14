@@ -8,5 +8,7 @@
 -----------------------------
 ### @pc media
 ![large screen](./screenshots/full-size-lg.png)
+#### with cart open
+![large screen with cart](./screenshots/lg-cart.png)
 ### @mobile media
 ![mobile media](./screenshots/sm.png)
