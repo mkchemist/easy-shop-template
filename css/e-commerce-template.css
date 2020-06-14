@@ -140,6 +140,13 @@
   animation-duration: 0.7s;
 }
 
+.side-nav a {
+  transition: 0.2s;
+}
+.side-nav a:hover {
+  color: #2586f5 !important;
+}
+
 @keyframes fade_effect_enter {
   from {
     opacity: 0;
