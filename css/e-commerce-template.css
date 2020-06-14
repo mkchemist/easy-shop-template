@@ -1,0 +1,113 @@
+.text-temp-primary {
+  color: #2586f5;
+}
+
+.bg-temp-primary,
+.badge-temp-primary {
+  background-color: #2586f5;
+}
+
+.landing-effect:hover {
+  animation-name: landing_effect;
+  animation-duration: 1s;
+}
+
+.badge-temp-primary {
+  color: #fff;
+  text-decoration: none;
+}
+.badge-temp-primary:hover {
+  color: #fff;
+}
+
+/**
+ * navbar style
+ *
+ *
+ */
+#navbar li {
+  position: relative;
+  transition: 0.5s;
+}
+#navbar li a {
+  transition: 0.5s;
+}
+#navbar li:hover {
+  background-color: #2586f5;
+  border-radius: 5px;
+}
+#navbar li:hover a {
+  color: #fff !important;
+}
+
+.product-img-container {
+  transition: 0.5s;
+}
+.product-img-container:hover {
+  transform: scale(1.3);
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+}
+.carousel-dots .owl-dot {
+  background-color: white !important;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  opacity: 0.5;
+}
+.carousel-dots .owl-dot:hover {
+  opacity: 1;
+}
+.carousel-dots .active {
+  opacity: 1;
+}
+.carousel-dots .active:focus {
+  outline: none;
+}
+
+.cart-counter {
+  border-radius: 50%;
+  padding: 0 4px;
+}
+
+#navbar-container {
+  animation-name: landing_effect;
+  animation-duration: 1s;
+}
+
+@keyframes landing_effect {
+  from {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes loading_border_width {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=e-commerce-template.css.map */
