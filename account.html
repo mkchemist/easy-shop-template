@@ -16,12 +16,16 @@
     <title>Easy-Shop</title>
   </head>
   <body>
+    <!-- header start-->
     <header class="bg-temp-primary pb-4">
+      <!-- header contacts and social media bar-->
       <div class="row mx-auto" id="website-contacts">
+        <!-- left side bar-->
         <ul class="nav">
           <li class="nav-item"><a class="nav-link text-light" href=""> <i class="fa fa-envelope"></i></a></li>
           <li class="nav-item"><a class="nav-link text-light" href=""> <i class="fa fa-phone fa-rotate-90"></i></a></li>
         </ul>
+        <!-- right side bar-->
         <ul class="nav ml-auto">
           <li class="nav-item"><a class="nav-link text-light" href=""> <i class="fab fa-facebook"></i></a></li>
           <li class="nav-item"><a class="nav-link text-light" href=""> <i class="fab fa-twitter"></i></a></li>
@@ -30,6 +34,7 @@
       </div>
       <!-- e-commerce-template navbar-->
       <div class="bg-white" id="navbar-container">
+        <!-- large screens navbar-->
         <div class="container navbar navbar-expand-lg navbar-light d-lg-flex d-none"><a class="navbar-brand" href="./"><span class="h3 text-temp-primary">Easy-Shop</span></a>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-1"><a class="nav-link p-2 landing-effect" href="./account.html"><span><i class="fa fa-user"></i></span><span class="mx-1">Account</span></a></li>
@@ -38,6 +43,7 @@
             <li class="nav-item mx-1"><a class="nav-link landing-effect" href="./help.html"><span class="px-1"><i class="fa fa-question"></i></span></a></li>
           </ul>
         </div>
+        <!-- mobile navbar-->
         <div class="container navbar navbar-expand-lg navbar-light"><a class="navbar-brand d-lg-none d-block" href=""><span class="h3 text-temp-primary">Easy-Shop</span></a>
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar"><span class="navbar-toggler-icon"></span></button>
           <div class="navbar-collapse collapse" id="navbar">
@@ -50,6 +56,8 @@
           </div>
         </div>
       </div>
+      <!--header end
+      -->
     </header>
     <div style="min-height:600px">
       <div class="row mx-auto container py-3">
@@ -63,52 +71,63 @@
             <li class="nav-item border-bottom col-lg-12"><a class="nav-link text-muted col-12 small" href=""><span><i class="fa fa-door-open"></i></span><span class="mx-1">logout</span></a></li>
           </ul>
         </div>
-        <div class="col-lg ml-2 row mx-auto text-muted p-lg-3 p-1">
-          <div class="col-lg px-0">
-            <p class="lead">Personal Info</p>
-            <div class="row mx-auto form-group">
-              <label class="col-4">Name :</label>
-              <input class="form-control-plaintext col-7 border-bottom" type="text" value=" Anonymous" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
+        <div class="col-lg ml-2 text-muted p-lg-3 p-1">
+          <form class="row mx-auto" action="" method="POST">
+            <div class="col-lg-6 px-2">
+              <p class="lead">Personal Info</p>
+              <hr/>
+              <div class="row mx-auto form-group">
+                <label class="col-4">Name :</label>
+                <input class="form-control-plaintext col-7 border-bottom" type="text" value=" Anonymous" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
+              </div>
+              <div class="row mx-auto form-group">
+                <label class="col-4">Gender :</label>
+                <input class="form-control-plaintext col-7 border-bottom" type="text" value=" Male" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
+              </div>
+              <div class="row mx-auto form-group">
+                <label class="col-4">Date of birth :</label>
+                <input class="form-control-plaintext col-7 border-bottom" type="text" value=" 5/9/1990" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
+              </div>
+              <div class="row mx-auto form-group">
+                <label class="col-4">Country :</label>
+                <input class="form-control-plaintext col-7 border-bottom" type="text" value=" Egypt" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
+              </div>
+              <div class="row mx-auto form-group">
+                <label class="col-4">City :</label>
+                <input class="form-control-plaintext col-7 border-bottom" type="text" value=" Cairo" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
+              </div>
+              <div class="row mx-auto form-group">
+                <label class="col-4">Address :</label>
+                <input class="form-control-plaintext col-7 border-bottom" type="text" value=" 123456 st" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
+              </div>
             </div>
-            <div class="row mx-auto form-group">
-              <label class="col-4">Gender :</label>
-              <input class="form-control-plaintext col-7 border-bottom" type="text" value=" Male" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
+            <div class="col-lg-6 px-2 border-left border-primary">
+              <p class="lead">Account Info</p>
+              <hr/>
+              <div class="row mx-auto form-group">
+                <label class="col-4">username :</label>
+                <input class="form-control-plaintext col-7 border-bottom" type="text" value=" username" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
+              </div>
+              <div class="row mx-auto form-group">
+                <label class="col-4">E-mail :</label>
+                <input class="form-control-plaintext col-7 border-bottom" type="text" value=" email@email.com" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
+              </div>
+              <div class="row mx-auto form-group">
+                <label class="col-4">Phone number :</label>
+                <input class="form-control-plaintext col-7 border-bottom" type="text" value=" +256454646" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
+              </div>
             </div>
-            <div class="row mx-auto form-group">
-              <label class="col-4">Date of birth :</label>
-              <input class="form-control-plaintext col-7 border-bottom" type="text" value=" 5/9/1990" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
+            <div class="col-12 clearfix">
+              <div class="float-right">
+                <button class="btn btn-dark"><span><i class="fa fa-times"></i></span><span class="ml-1">close</span></button>
+                <button class="btn btn-success"><span><i class="fa fa-save"></i></span><span class="ml-1">save</span></button>
+              </div>
             </div>
-            <div class="row mx-auto form-group">
-              <label class="col-4">Country :</label>
-              <input class="form-control-plaintext col-7 border-bottom" type="text" value=" Egypt" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
-            </div>
-            <div class="row mx-auto form-group">
-              <label class="col-4">City :</label>
-              <input class="form-control-plaintext col-7 border-bottom" type="text" value=" Cairo" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
-            </div>
-            <div class="row mx-auto form-group">
-              <label class="col-4">Address :</label>
-              <input class="form-control-plaintext col-7 border-bottom" type="text" value=" 123456 st" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
-            </div>
-          </div>
-          <div class="col-lg px-0">
-            <p class="lead">Account Info</p>
-            <div class="row mx-auto form-group">
-              <label class="col-4">username :</label>
-              <input class="form-control-plaintext col-7 border-bottom" type="text" value=" username" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
-            </div>
-            <div class="row mx-auto form-group">
-              <label class="col-4">E-mail :</label>
-              <input class="form-control-plaintext col-7 border-bottom" type="text" value=" email@email.com" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
-            </div>
-            <div class="row mx-auto form-group">
-              <label class="col-4">Phone number :</label>
-              <input class="form-control-plaintext col-7 border-bottom" type="text" value=" +256454646" disabled="disabled"/><a class="toggleEdit" href=""><span class="ml-1"><i class="fa fa-edit"></i></span></a>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
+    <!-- cart modal start-->
     <div class="modal fade" id="cart-modal" data-index="-1">
       <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content">
@@ -164,6 +183,8 @@
         </div>
       </div>
     </div>
+    <!-- cart modal end-->
+    <!-- footer start-->
     <div class="row mx-auto bg-temp-primary p-2">
       <div class="col-lg-3 p-2">
         <p class="display-4 text-light">EasyShop</p>
@@ -198,6 +219,7 @@
         </form>
       </div>
     </div>
+    <!--footer end-->
     <!-- jQuery script-->
     <script src="jquery/jquery.min.js"></script>
     <!-- Bootstrap bundle script-->
